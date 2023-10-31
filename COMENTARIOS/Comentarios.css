@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 135px;
+    height: auto;
+}
+
+
+.content {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actor-cards-container {
+    width: 50% 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 900px;
+    display: inline-block;
+}
+
+.card {
+    margin-left: 40%;
+    width: 900px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(0.90);
+}
+
+.banner-0 {
+    transform: scale(0.95);
+    background-position: 50% 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute;
+    width: 800px;
+    height: 1165px;
+    display: flex;
+    background-image: url('https://images7.alphacoders.com/126/1262025.jpg');
+}
+
+.banner-1 {
+    background-position: 640px 550px;
+    display: inline-block;
+    background-image: url('https://images6.alphacoders.com/788/thumbbig-788475.webp');
+    background-color: #D21617;
+}
+
+.banner-2 {
+    display: inline-block;
+    background-position: 400px 550px;
+    background-image: url('https://images8.alphacoders.com/131/thumbbig-1318216.webp');
+}
+
+.banner-3 {
+    display: inline-block;
+    background-position: 600px 35%;
+    background-image: url('https://images.alphacoders.com/934/thumbbig-934762.webp');
+}
+
+.banner-4 {
+    display: inline-block;
+    background-position: 600px 5%;
+    background-image: url('https://images7.alphacoders.com/413/413789.jpg');
+}
+
+.banner-5 {
+    display: inline-block;
+    background-position: 600px 11%;
+    background-image: url('https://images4.alphacoders.com/211/211614.jpg');
+}
+
+h1 {
+    margin-right: 0.5%;
+    margin-top: 0.7%;
+    border: solid;
+    padding-left: 2%;
+    border-radius: 5px;
+    background-color: rgba(red, green, blue,);
+    margin-left: 50%;
+}
+
+H2 {
+    margin-left: 75%;
+    margin-right: 0.5%;
+    margin-top: 12%;
+    border: solid;
+    padding-left: 4%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+H3 {
+    margin-left: 75%;
+    margin-right: 0.5%;
+    margin-top: 7%;
+    border: solid;
+    padding-left: 4%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+H4 {
+    margin-left: 75%;
+    margin-right: 0.5%;
+    margin-top: 1.5%;
+    border: solid;
+    padding-left: 4%;
+    border-radius: 5px;
+    background-color: red;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+}
