@@ -186,7 +186,29 @@ span {
         display: none;
     }
 
-    #banner {
-        background-position: 40%;
+    h1 {
+        width: 80%;
+        
     }
+
+    header {
+        width: 100%;
+    }
+
+    #logo {
+        width: 25%;
+    }
+
+    section {
+        width: 50%;
+    }
+
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0%;
+    }
+
 }
