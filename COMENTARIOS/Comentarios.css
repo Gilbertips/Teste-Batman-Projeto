@@ -183,12 +183,12 @@ span {
     }
 
     .card {
-        width: 310px;
+        width: 300px;
         display: block;
     }
 
     p {
-        width: 275px;
+        width: 265px;
         display: block;
     }
 
@@ -207,3 +207,4 @@ span {
         margin-left: 10%;
     }
 }
+
