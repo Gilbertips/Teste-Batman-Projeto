@@ -186,29 +186,46 @@ span {
         display: none;
     }
 
-    h1 {
-        width: 80%;
-        
+    #banner {
+        background-position: 40%;
     }
 
-    header {
+    #trailer-container {
         width: 100%;
-    }
-
-    #logo {
-        width: 25%;
-    }
-
-    section {
-        width: 50%;
-    }
-
-    main.cards {
+        height: 400px;
+        display: flex;
         flex-direction: column;
     }
 
-    main.cards section.card {
-        margin-left: 0%;
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
     }
 
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
 }
+
