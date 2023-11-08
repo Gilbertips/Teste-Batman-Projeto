@@ -206,5 +206,9 @@ span {
         width: 95%;
         margin-left: 10%;
     }
+
+    footer {
+        display: none;
+        
 }
 
