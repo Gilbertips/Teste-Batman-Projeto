@@ -247,15 +247,14 @@ span {
         font-family: 'Kdam Thmor Pro', sans-serif;
     }
 
-    ul {
-        display: block;
-        width: 100px;
-        height: 100px;
-        margin-left: 125px;
-    }
-
     footer {
         display: none;
+    }
+
+    .footer-list-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
