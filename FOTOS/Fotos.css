@@ -176,6 +176,13 @@ span {
         display: none;
     }
 
+    ul {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin-left: 125px;
+    }
+
     footer {
         display: none;
-}
+    }
